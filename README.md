@@ -1,21 +1,35 @@
-# wav2mov
+# w2v (wav2video)
 
 # What Is That?
 
-* It's a bash script that converts any .wav file into a "black screen" .mov file.
+* It's a bash script that converts any .wav file into a .mov/.mkv (uncompressed audio) file.
 
 # How do I use it?
 
 * you just need a .wav file (obviously) and ffmpeg installed.
 
-* After Downloading the shell script, you can execute it from:
+* you can also use images, a animated gif or a black screen.
 
-* "bash wav2mov.sh filename.wav"
+* and also, you can choose between the .mov format (which has pcm audio) or the .mkv format (which has a flac audio)
+* the audio should not be compressed anyways; both are uncompressed audio formats.
 
-* Then, ffmpeg renders a black color screen in the exact duration of the audio, at 720p30fps.
+* heres a exemple.
+
+
+```
+./w2v --bg [gif, image here or just "black" if you want a black screen.] --fmt [mov or mkv] file.wav
+```
 
 # But why?
 
-* I made this with the intention of uploading the pure audio, to avoid possible loss of quality when uploaded to some video services (YouTube is a good example because it always re-encodes audios from videos to aac or opus).
+* I made this with the intention of uploading uncompressed audio videos, to avoid possible loss of quality when uploaded to some video services (YouTube is a good example because it always re-encodes audios from videos to aac or opus).
 
-* Unfortunately, there is no way to prevent this, so the best way is to upload the pure audio to avoid loss of quality "in what is already lost".
+* Unfortunately, there is no way to prevent this, so the best way is to upload the uncompressed audio to avoid loss of quality "in what is already lost".
+
+# It's useful?
+
+* maybe. (i hope so.)
+
+# important note:
+* i didnt actually make the code, claude did. i just tested and published the script.
+* so sorry if any error happens.
