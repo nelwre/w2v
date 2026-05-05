@@ -17,7 +17,7 @@
 
 
 ```
-./w2v --bg [gif, image here or just "black" if you want a black screen.] --fmt [mov or mkv] file.wav
+./w2v.sh --bg [gif, image here or just "black" if you want a black screen.] --fmt [mov or mkv] file.wav
 ```
 
 # But why?
@@ -32,4 +32,3 @@
 
 # important note:
 * i didnt actually make the code, claude did. i just tested and published the script.
-* so sorry if any error happens.
